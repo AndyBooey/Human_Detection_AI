@@ -46,18 +46,17 @@ This project uses a pre-trained MobileNet SSD v1 TensorFlow Lite model to detect
 
 ## 🚀 How to Run
 1️⃣ Prerequisites
-Raspberry Pi with Python 3 installed
+- Raspberry Pi with Python 3 installed
+- PiCamera connected and enabled
 
-PiCamera connected and enabled
-
-Required libraries installed:
-pip install opencv-python tensorflow tensorflow-lite smtplib
+- Required libraries installed:
+- pip install opencv-python tensorflow tensorflow-lite smtplib
 
 2️⃣ Running Human Detection with Email Alerts
-python human_alert_cam.py
+- python human_alert_cam.py
 
 3️⃣ Running in Preview Mode (No Email Alerts)
-python preview_detector.py
+- python preview_detector.py
 
 
 
