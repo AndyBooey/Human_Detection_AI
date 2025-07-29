@@ -1,6 +1,23 @@
+## 👀 Human Detection with Email Alerts
 This project uses a pre-trained MobileNet SSD v1 TensorFlow Lite model to detect humans in real-time using a Raspberry Pi and PiCamera.
-When a person is detected, an email alert is sent.  When a person is detected with a confidence score of 50%, the system sends an automated email alert to a specified email address.
+📧 When a person is detected with 50% confidence or higher, the system automatically sends an email alert to a specified address.
 
+
+ ##🛠 Features
+- ✅ Real-time human detection on Raspberry Pi
+
+- 🎯 50% confidence threshold for alerts
+
+- 📧 Email notifications via Gmail SMTP
+
+- 📷 Bounding box and label display on the live camera feed
+
+- 🔍 Testing mode available (no email alerts)
+
+
+
+
+## 📂 Project Files
 ## human_alert_cam.py
 - detects humans in live camera feed and sends email alerts
 - If a person is detected with over 50% confidence, it:
@@ -25,3 +42,22 @@ When a person is detected, an email alert is sent.  When a person is detected w
 - Contains a list of 90 class labels corresponding to the model's output class IDs.
 - Each line corresponds to a class ID expected in the model's output.
 - Includes "person," the label used to trigger email alerts.
+
+
+## 🚀 How to Run
+1️⃣ Prerequisites
+Raspberry Pi with Python 3 installed
+
+PiCamera connected and enabled
+
+Required libraries installed:
+pip install opencv-python tensorflow tensorflow-lite smtplib
+
+2️⃣ Running Human Detection with Email Alerts
+python human_alert_cam.py
+
+3️⃣ Running in Preview Mode (No Email Alerts)
+python preview_detector.py
+
+
+
