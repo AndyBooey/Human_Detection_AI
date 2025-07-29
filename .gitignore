@@ -1,0 +1,13 @@
+# TensorFlow Lite model
+*.tflite
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# VSCode settings (if you use them)
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
