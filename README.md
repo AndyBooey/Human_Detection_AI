@@ -53,12 +53,18 @@ This project uses a pre-trained MobileNet SSD v1 TensorFlow Lite model to detect
 - pip install opencv-python tensorflow tensorflow-lite smtplib
 
 2️⃣ Running Human Detection with Email Alerts
-```bash
-python human_alert_cam.py
+> 🖥️ **Run Command:**
+> ```bash
+> python human_alert_cam.py
+> ```
+
 
 3️⃣ Running in Preview Mode (No Email Alerts)
-```bash
+> 🖥️ **Run Command:**
+> ```bash
 python preview_detector.py
+> ```
+
 
 
 
