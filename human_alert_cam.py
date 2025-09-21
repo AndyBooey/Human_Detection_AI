@@ -5,7 +5,7 @@ from picamera2 import Picamera2 #efficient way of accessing Raspberry Pi Camera
 import tflite_runtime.interpreter as tflite #tensorflow lite model
 import smtplib  #email APi to send email alerts
 from email.message import EmailMessage
-
+ 
 #pip3 install tflite-runtime --break-system-packages
 #https://storage.googleapis.com/download.tensorflow.org/models/tflite/coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.zip
 
